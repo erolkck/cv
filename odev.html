@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <hr>
+
+    <form action="ornek">
+        <h1>Race Registration</h1><br>
+        
+            <label for="Isim">First Name:</label>
+            <input type="text" required placeholder="First Name" id="Isim" name="Erol"/>
+            <label for="Isim">Last Name:</label>
+            <input type="text" required placeholder="Last Name" id="Isim" name="Kucuk"/><br>
+        
+        <hr>
+        
+            <h1>Select a Race</h1>
+            <label for="Kosu"> Fun Run 5K</label>
+            <input type="radio" name="Kosu" id="Kosu" value="Fun Run 5K"><br>
+            <label for="Kosu"> Half Marathon</label>
+            <input type="radio" name="Kosu" id="Kosu2" value="Half Marathon"><br>
+            <label for="Kosu"> Full Marathon</label>
+            <input type="radio" name="Kosu" id="Kosu3" value="Full Marathon"><br>
+            <br>
+        
+        
+                <label for="Isim">Email:</label>
+                <input type="email" placeholder="Email "id="Isim" name="email" required minlength="5" maxlength="10"/>
+                <label for="sifre">Password</label>
+                <input type="password" name="" placeholder="password" minlength="5"   required><br>
+            
+         
+        
+         <label for="age group"> Select Age Group</label>  
+        <select name="age" id="age group">
+        <option value="Select Age Group"></option>    
+        <option value="20-30">20-30</option>    
+        <option value="30-40">30-40</option>    
+        <option value="40-50">40-50</option>    
+        <option value="50-60">50-60</option>   
+    </select><br>
+        <button>register</button>
+
+   </form>
+    
+</body>
+</html>
+
+http://127.0.0.1:5500/ornek?Erol=Errol&Kucuk=kucuk&Kosu=Full+Marathon&email=Errol%40gmai&age=20-30
